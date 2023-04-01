@@ -1,0 +1,27 @@
+@import '../../../styles/variables.scss';
+.block{
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+	border-left: 1px dashed rgba($gray, .1);
+	margin-left: 25px;
+}
+.image{
+	width: 56px;
+	height: 56px;
+	margin-right: 14px;
+}
+.info{
+	span{
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 1.5;
+		color: $gray;
+	}
+	div{
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 1.5;
+		color: $dark;
+	}
+}

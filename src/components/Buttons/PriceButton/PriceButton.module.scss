@@ -1,0 +1,23 @@
+@import '../../../styles/variables.scss';
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $yellow;
+	border-radius: 80px;
+	border: 2px solid $yellow;
+	width: 200px;
+	height: 60px;
+	cursor: pointer;
+	span{
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1;
+		color: $white;
+		margin-right: 12px;
+	}
+	img{
+		width: 17px;
+		height: 17px;
+	}
+}

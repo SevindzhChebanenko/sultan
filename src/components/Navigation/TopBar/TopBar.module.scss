@@ -1,0 +1,54 @@
+@import '../../../styles/variables.scss';
+.bar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 0;
+	border-bottom: 1px solid rgba($gray, .05);
+}
+.contacts{
+	display: flex;
+	align-items: center;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	&:not(:last-child){
+		padding-right: 20px;
+		margin-right: 20px;
+		border-right: rgba($black, .05) 1px dashed;
+	}
+	img{
+		width: 20px;
+		height: 20px;
+		margin-right: 15px;
+	}
+	.top_side{
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 1;
+		color: $dark;
+		margin-bottom: 6px;
+	}
+	.bottom_side{
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 1;
+		color: $gray;
+	}
+}
+.links{
+	display: flex;
+	align-items: center;
+}
+.link{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 2;
+	color: $gray;
+	&:not(:last-child){
+		padding-right: 20px;
+		margin-right: 20px;
+		border-right: rgba($black, .05) 1px dashed;
+	}
+}

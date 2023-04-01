@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+.block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+.title{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1;
+	color: $dark;
+}
+.sort{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1;
+	color: $dark;
+	span{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1;
+		color: $gray;
+		margin-right: 5px;
+		cursor: pointer;
+	}
+	img{
+		width: 7px;
+		height: 7px;
+	}
+}

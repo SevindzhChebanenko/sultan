@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+.block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.title{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 1;
+	color: $dark;
+}

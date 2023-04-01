@@ -1,0 +1,7 @@
+@import '../../../styles/variables.scss';
+.bar{
+	display: flex;
+	align-items: center;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba($gray, .05);
+}

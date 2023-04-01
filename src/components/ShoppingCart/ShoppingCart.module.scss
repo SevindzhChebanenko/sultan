@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+.void{
+	border-top: 1px dashed rgba($gray, .3);
+	border-bottom: 1px dashed rgba($gray, .3);
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 1;
+	color: $dark;
+}
+.buy{
+	padding: 50px 0 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	button{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 192px;
+		height: 59px;
+		border-radius: 79px;
+		background-color: $yellow;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 1;
+		color: $white;
+		cursor: pointer;
+	}
+	.cost{
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 1;
+		color: $dark;
+	}
+}

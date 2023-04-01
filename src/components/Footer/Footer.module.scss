@@ -1,0 +1,171 @@
+@import '../../styles/variables.scss';
+.footer{
+	background-color: $gray;
+	padding: 70px 0 116px;
+}
+.inner{
+	display: flex;
+}
+.about{
+	width: 320px;
+	margin-right: 59px;
+}
+.links{
+	display: grid;
+	grid-template-columns: 129px 170px 214px 152px;
+	grid-gap: 95px;
+	.link{
+		cursor: pointer;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1;
+		color: $white;
+		&:not(:last-child){
+			margin-bottom: 20px;
+		}
+	}
+	.title{
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 1;
+		color: $white;
+		margin-bottom: 25px;
+	}
+	.button{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: $yellow;
+		border-radius: 80px;
+		border: 2px solid $yellow;
+		width: 214px;
+		height: 60px;
+		cursor: pointer;
+		margin-bottom: 20px;
+		span{
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 1;
+			color: $white;
+			margin-right: 12px;
+		}
+		img{
+			width: 17px;
+			height: 17px;
+		}
+	}
+	.subtext{
+		margin-bottom: 15px;
+	}
+	.social{
+		display: flex;
+		align-items: center;
+		img{
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			&:not(:last-child){
+				margin-right: 10px;
+			}
+		}
+	}
+	.info{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 25px;
+		div{
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 1;
+			color: $white;
+			margin-bottom: 5px;
+		}
+		span{
+			font-weight: 300;
+			font-size: 12px;
+			line-height: 1;
+			color: $white;
+			&:not(:last-child){
+				margin-bottom: 5px;
+			}
+		}
+		.call{
+			font-weight: 400;
+			font-size: 10px;
+			line-height: 1.5;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+	.cards{
+		display: flex;
+		align-items: center;
+		img{
+			width: 61px;
+			height: 39px;
+			cursor: pointer;
+			&:not(:last-child){
+				margin-right: 5px;
+			}
+		}
+	}
+}
+.logo{
+	width: 156px;
+	height: 66px;
+	margin-bottom: 15px;
+}
+.text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: $white;
+	margin-bottom: 45px;
+}
+.subtext{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1;
+	color: $white;
+	margin-bottom: 14px;
+}
+.email{
+	width: 282px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background-color: $white;
+	border-radius: 36px;
+	input{
+		margin: 20px 0px 20px 20px;
+		background-color: transparent;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.5;
+		color: $gray;
+		max-width: 100%;
+		width: 100%;
+		&:placeholder{
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 1.5;
+			color: $gray;
+		}
+	}
+	button{
+		margin: 10px;
+		width: 40px;
+		height: 40px;
+		background-color: $yellow;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		flex: 0 0 auto;
+	}
+	img{
+		width: 8px;
+		height: 15px;
+	}
+}
